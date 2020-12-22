@@ -1,0 +1,116 @@
+main {
+    min-width: 500px;
+}
+body {
+    font-family: arial, sans-serif;
+ }
+ div .search {
+     margin: auto;
+ }
+ ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+
+  #nav {
+    background-color: white;
+    align-items: center;
+  }
+
+#nav img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+div #logo {
+    display: inline;
+}
+
+#logo img {
+    width: 500px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    
+}
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+
+/* no idea what this f-ing thing is */
+.corner {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: white;
+}
+
+.search {
+    display: ;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    width: 300px;
+    margin: auto;
+}
+form { 
+    margin: 40px;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 40px 40px 40px;
+    grid-template-areas: 
+    "top"
+    "middle"
+    "bottom";
+}
